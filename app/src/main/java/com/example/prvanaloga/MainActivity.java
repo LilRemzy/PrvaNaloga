@@ -1,7 +1,9 @@
 package com.example.prvanaloga;
 
 import android.os.Bundle;
-
+import android.view.Gravity;
+import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +11,6 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import android.widget.Toast;
 import com.google.android.material.snackbar.Snackbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,11 +20,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
         findViewById(R.id.button).setOnClickListener(v -> {
             Toast.makeText(MainActivity.this,
                     "My first Android Studio application!",
@@ -31,9 +34,21 @@ public class MainActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.floatingActionButton).setOnClickListener(v -> {
-            Snackbar.make(v,
+            Snackbar snackbar = Snackbar.make(
+                    v,
                     "Just another option for button.",
-                    Snackbar.LENGTH_LONG).show();
+                    Snackbar.LENGTH_LONG
+            );
+
+            View snackbarView = snackbar.getView();
+
+            android.widget.FrameLayout.LayoutParams params =
+                    (android.widget.FrameLayout.LayoutParams) snackbarView.getLayoutParams();
+            params.gravity = Gravity.CENTER;
+            params.width = android.widget.FrameLayout.LayoutParams.WRAP_CONTENT;
+            snackbarView.setLayoutParams(params);
+
+            snackbar.show();
         });
     }
 }

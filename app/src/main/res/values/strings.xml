@@ -4,4 +4,6 @@
     <string name="pozdrav">Pozdravljeni!</string>
     <string name="gumb">Vpis</string>
     <string name="pogoji">Strinjam se s pogoji uporabe</string>
+    <string name="M">Moški</string>
+    <string name="Z">Ženska</string>
 </resources>
