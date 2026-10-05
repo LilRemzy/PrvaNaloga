@@ -1,4 +1,4 @@
-#Hello World Aplikacija
+# Hello World Aplikacija
 
 Moja prva Aplikacija v kateri sem
 Spoznal okolje android studija in njegove osnove
