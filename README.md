@@ -1,6 +1,7 @@
-Moja prva Aplikacija pri MOA
+Moja prva Aplikacija v kateri 
 Spoznal sem okolje android studija in njegove osnove
 
+Cilji:<br>
 • ustvariti nov projekt v Android Studiu z uporabo predloge Empty Views Activity,<br>
 • izbrati jezik Java in poiskati glavne datoteke projekta,<br>
 • zagnati aplikacijo na emulatorju ali napravi,<br>
