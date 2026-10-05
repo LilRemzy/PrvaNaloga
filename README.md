@@ -1,7 +1,7 @@
 # Hello World Aplikacija
 
 Moja prva Aplikacija v kateri sem
-Spoznal okolje android studija in njegove osnove
+spoznal okolje android studija in njegove osnove
 
 Cilji:<br>
 • ustvariti nov projekt v Android Studiu z uporabo predloge Empty Views Activity,<br>
