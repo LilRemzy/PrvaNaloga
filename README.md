@@ -14,6 +14,6 @@ Cilji:<br>
 
 Zaslonske Slike Aplikacij:<br>
 <img width="270" height="550" alt="Slika2" src="https://github.com/user-attachments/assets/b811c2e0-4da0-42fd-8179-0812a05bf690" />
-<img width="270" height="550" alt="Slika3" src="https://github.com/user-attachments/assets/683bcfbb-ee0e-40c7-bcb8-040833011120" />
+<img width="270" height="550" alt="image" src="https://github.com/user-attachments/assets/af3d94af-8831-4c3d-899b-be5fcf4aec5b" />
 <img width="270" height="550" alt="Slika4" src="https://github.com/user-attachments/assets/c61d45de-285e-44d9-acd4-2c4f579e8e56" />
 
